@@ -1,4 +1,4 @@
-const hasMeeting = true;
+const hasMeeting = false;
 const meeting= new Promise((resolve,reject)=>{
     if(!hasMeeting){
         const meetingDelails={
@@ -20,4 +20,3 @@ meeting
         .catch((err) => {
              console.log(err.message);   
         });
-
